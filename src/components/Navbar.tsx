@@ -33,7 +33,7 @@ const [isOpen, setIsOpen] = useState(false);
   return (
     <nav 
       className={`fixed w-full z-30 transition-all mx-auto   duration-300 ${
-        isScrolled ? 'bg-white shadow-md py-2' : 'bg-transparent py-4'
+        isScrolled ? 'bg-white shadow-md' : 'bg-transparent py-2'
       }`}
     >
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

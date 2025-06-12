@@ -1,4 +1,5 @@
-import { Download, Store, HelpCircle } from 'lucide-react';
+import { Download, Store, HelpCircle, Bike } from 'lucide-react';
+
 
 const ContactUs = () => {
   return (
@@ -34,6 +35,10 @@ const ContactUs = () => {
             <button className="px-8 py-4 bg-emerald-700 text-white font-medium rounded-md hover:bg-emerald-800 transition-colors flex items-center justify-center">
               <HelpCircle className="mr-2 h-5 w-5" />
               See How It Works
+            </button>
+            <button className="px-8 py-4 bg-[#A83F3C] text-white font-medium rounded-md hover:bg-[#FA8334] transition-colors flex items-center justify-center">
+              <Bike className="mr-2 h-5 w-5" />
+              Become a Rider
             </button>
           </div>
         </div>

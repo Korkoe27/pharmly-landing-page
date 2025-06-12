@@ -11,7 +11,7 @@ const AppPreview = () => {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Built for Ghana. Built for Ease.</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Built for Ease.</h2>
           <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
             Upload your prescription. Get matched to a pharmacy near you. Track the rider. Refill meds with one tap.
           </p>
