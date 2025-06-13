@@ -21,23 +21,23 @@ const TargetUsers = () => {
             
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+                <span className="w-5 h-5 m-auto bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 text-center mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>Search for medications across multiple pharmacies</span>
               </li>
-              <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+              <li className="flex items-start m-auto">
+                <span className="w-5 h-5 m-auto bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 text-center mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>Get your prescriptions delivered to your doorstep</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+                <span className="w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 text-center mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>Track your order in real-time</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+                <span className="w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 text-center mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>Refill medications with one tap</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+                <span className="w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 text-center mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>Pay securely with Mobile Money</span>
               </li>
             </ul>
@@ -59,23 +59,23 @@ const TargetUsers = () => {
             
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-blue-100 rounded-full text-blue-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+                <span className="w-5 h-5 bg-blue-100 rounded-full text-blue-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>Expand your customer reach beyond physical location</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-blue-100 rounded-full text-blue-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+                <span className="w-5 h-5 bg-blue-100 rounded-full text-blue-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>Digital inventory management system</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-blue-100 rounded-full text-blue-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+                <span className="w-5 h-5 bg-blue-100 rounded-full text-blue-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>Prescription logging and verification</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-blue-100 rounded-full text-blue-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+                <span className="w-5 h-5 bg-blue-100 rounded-full text-blue-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>Streamlined order fulfillment process</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-blue-100 rounded-full text-blue-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+                <span className="w-5 h-5 bg-blue-100 rounded-full text-blue-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>Analytics dashboard for sales insights</span>
               </li>
             </ul>
@@ -97,23 +97,23 @@ const TargetUsers = () => {
             
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-yellow-100 rounded-full text-yellow-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+                <span className="w-5 h-5 bg-yellow-100 rounded-full text-yellow-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>Flexible working hours on your own schedule</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-yellow-100 rounded-full text-yellow-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+                <span className="w-5 h-5 bg-yellow-100 rounded-full text-yellow-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>Competitive weekly earnings</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-yellow-100 rounded-full text-yellow-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+                <span className="w-5 h-5 bg-yellow-100 rounded-full text-yellow-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>GPS-optimized routes for efficient deliveries</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-yellow-100 rounded-full text-yellow-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+                <span className="w-5 h-5 bg-yellow-100 rounded-full text-yellow-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>In-app support and training</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-yellow-100 rounded-full text-yellow-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+                <span className="w-5 h-5 bg-yellow-100 rounded-full text-yellow-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>Immediate payment processing</span>
               </li>
             </ul>

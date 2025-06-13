@@ -32,7 +32,7 @@ const Hero = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content Section */}
           <div className="text-center lg:text-left">
-            <div className="inline-flex items-center px-4 py-2 bg-white bg-opacity-20 rounded-full text-white text-sm font-medium mb-6 backdrop-blur-sm">
+            <div className="inline-flex items-center px-4 py-2 bg-white/10 backdrop-blur-md bg-opacity-20 rounded-full text-white text-sm font-medium mb-6">
               <span className="w-2 h-2 bg-green-400 rounded-full mr-2 animate-pulse"></span>
               Now serving 14 regions across Ghana
             </div>
@@ -82,19 +82,19 @@ const Hero = () => {
             {/* Trust Indicators */}
             <div className="mt-12 flex flex-wrap items-center justify-center lg:justify-start gap-6 text-white text-opacity-80">
               <div className="flex items-center">
-                <div className="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center mr-2">
+                <div className="w-8 h-8 bg-white/10 backdrop-blur-md bg-opacity-20 rounded-full flex items-center justify-center mr-2">
                   <span className="text-xs font-bold">✓</span>
                 </div>
                 <span className="text-sm">Licensed Pharmacies</span>
               </div>
               <div className="flex items-center">
-                <div className="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center mr-2">
+                <div className="w-8 h-8 bg-white/10 backdrop-blur-md bg-opacity-20 rounded-full flex items-center justify-center mr-2">
                   <span className="text-xs font-bold">✓</span>
                 </div>
                 <span className="text-sm">Secure Payments</span>
               </div>
               <div className="flex items-center">
-                <div className="w-8 h-8 bg-white bg-opacity-20 rounded-full flex items-center justify-center mr-2">
+                <div className="w-8 h-8 bg-white/10 backdrop-blur-md bg-opacity-20 rounded-full flex items-center justify-center mr-2">
                   <span className="text-xs font-bold">✓</span>
                 </div>
                 <span className="text-sm">Real-time Tracking</span>

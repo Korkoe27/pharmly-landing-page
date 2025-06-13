@@ -30,23 +30,23 @@ const WhyPharmly = () => {
             
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-red-100 rounded-full text-red-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✕</span>
+                <span className="w-5 h-5 bg-red-100 rounded-full text-red-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✕</span>
                 <span>Walking between multiple pharmacies to find your medication</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-red-100 rounded-full text-red-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✕</span>
+                <span className="w-5 h-5 bg-red-100 rounded-full text-red-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✕</span>
                 <span>Long queues and wait times at busy pharmacies</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-red-100 rounded-full text-red-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✕</span>
+                <span className="w-5 h-5 bg-red-100 rounded-full text-red-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✕</span>
                 <span>Paper prescriptions that get lost or damaged</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-red-100 rounded-full text-red-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✕</span>
+                <span className="w-5 h-5 bg-red-100 rounded-full text-red-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✕</span>
                 <span>No data tracking for medication usage patterns</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-red-100 rounded-full text-red-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✕</span>
+                <span className="w-5 h-5 bg-red-100 rounded-full text-red-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✕</span>
                 <span>Difficult access for those with mobility challenges</span>
               </li>
             </ul>
@@ -63,23 +63,23 @@ const WhyPharmly = () => {
             
             <ul className="space-y-3 text-gray-700">
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+                <span className="w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>Search multiple pharmacies instantly from your phone</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+                <span className="w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>Medications delivered directly to your home or office</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+                <span className="w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>Digital prescription management and refill reminders</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+                <span className="w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>Secure payment options including Mobile Money</span>
               </li>
               <li className="flex items-start">
-                <span className="inline-block w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
+                <span className="w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>Anonymized data helping improve Ghana's healthcare system</span>
               </li>
             </ul>
