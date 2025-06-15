@@ -1,7 +1,7 @@
 'use client';
 import { useState, useEffect } from "react";
 import { Menu, X, ChevronDown } from 'lucide-react';
-import logo from '../assets/pharmly-logo.png';
+import logo from '../assets/pharmly.svg';
 import Image from "next/image";
 
 
@@ -36,14 +36,14 @@ const [isOpen, setIsOpen] = useState(false);
         isScrolled ? 'bg-white shadow-md' : 'bg-transparent py-2'
       }`}
     >
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex items-center">
             <button 
               onClick={() => scrollToSection('top')} 
               className={`text-2xl font-bold ${isScrolled ? 'text-emerald-600' : 'text-white'}`}
             >
-                            <Image src={logo} alt="Pharmly Logo" width={100} height={100} className="w-auto mb-4" />
+                            <Image src={logo} alt="Pharmly Logo"  className="w-auto mb-4" />
             </button>
           </div>
           

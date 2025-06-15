@@ -3,7 +3,7 @@ import { LineChart, BarChart, PieChart, TrendingUp } from 'lucide-react';
 const PharmlyData = () => {
   return (
 <section id="data-mission" className="py-16 md:py-24 bg-gradient-to-b from-gray-50 to-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Every Order Counts — For More Than You Think</h2>
           <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">

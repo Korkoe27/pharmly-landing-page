@@ -1,10 +1,10 @@
 import Image from 'next/image';
-import logo from '../assets/pharmly-logo.png';
+import logo from '../assets/pharmly.svg';
 import { Mail, Phone, MapPin, Linkedin, Instagram, Twitter } from 'lucide-react';
 const Footer = () => {
   return (
  <footer className="bg-white py-12 md:py-16">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full container mx-auto px-4 sm:px-6 lg:px-8">
             <div className="">
               <Image src={logo} alt="Pharmly Logo" width={100} height={100} className="w-auto mb-4" />
             </div>
@@ -17,7 +17,7 @@ const Footer = () => {
               <a href="#" className="text-gray-900 hover:text-emerald-600 transition-colors">
                 <Linkedin className="h-5 w-5" />
               </a>
-              <a href="#" className="text-gray-900 hover:text-emerald-600 transition-colors">
+              <a href="https://www.instagram.com/phar_mly?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target='_blank' className="text-gray-900 hover:text-emerald-600 transition-colors">
                 <Instagram className="h-5 w-5" />
               </a>
               <a href="#" className="text-gray-900 hover:text-emerald-600 transition-colors">

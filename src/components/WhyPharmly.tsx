@@ -10,7 +10,7 @@ const WhyPharmly = () => {
   };
   return (
  <section id="how-it-works" className="py-16 md:py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="w-full container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Why We Exist</h2>
           <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
@@ -41,14 +41,6 @@ const WhyPharmly = () => {
                 <span className="w-5 h-5 bg-red-100 rounded-full text-red-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✕</span>
                 <span>Paper prescriptions that get lost or damaged</span>
               </li>
-              <li className="flex items-start">
-                <span className="w-5 h-5 bg-red-100 rounded-full text-red-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✕</span>
-                <span>No data tracking for medication usage patterns</span>
-              </li>
-              <li className="flex items-start">
-                <span className="w-5 h-5 bg-red-100 rounded-full text-red-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✕</span>
-                <span>Difficult access for those with mobility challenges</span>
-              </li>
             </ul>
           </div>
           
@@ -73,14 +65,6 @@ const WhyPharmly = () => {
               <li className="flex items-start">
                 <span className="w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
                 <span>Digital prescription management and refill reminders</span>
-              </li>
-              <li className="flex items-start">
-                <span className="w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
-                <span>Secure payment options including Mobile Money</span>
-              </li>
-              <li className="flex items-start">
-                <span className="w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
-                <span>Anonymized data helping improve Ghana's healthcare system</span>
               </li>
             </ul>
           </div>

@@ -28,7 +28,7 @@ const Hero = () => {
         <div className="absolute top-1/2 left-1/3 w-32 h-32 bg-emerald-300 rounded-full"></div>
       </div>
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="container w-full mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Content Section */}
           <div className="text-center lg:text-left">
@@ -107,7 +107,7 @@ const Hero = () => {
             <div className="relative">
               {/* Main Phone Mockup */}
               <div className="relative z-10">
-                <div className="bg-gray-900 rounded-[2.5rem] p-2 w-80 shadow-2xl">
+                <div className="bg-gray-900 rounded-[2.5rem] p-2 w-96 shadow-2xl">
                   <div className="bg-white rounded-[2rem] overflow-hidden h-[600px] w-full relative">
                     {/* Status Bar */}
                     <div className="bg-emerald-600 text-white px-6 py-4 flex justify-between items-center">
