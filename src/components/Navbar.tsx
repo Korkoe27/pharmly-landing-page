@@ -31,19 +31,21 @@ const [isOpen, setIsOpen] = useState(false);
   };
 
   return (
-    <nav 
-      className={`fixed w-full z-30 transition-all mx-auto   duration-300 ${
-        isScrolled ? 'bg-white shadow-md' : 'bg-transparent py-2'
+ <nav 
+      className={`fixed w-full z-30 transition-all duration-300 ${
+        isScrolled ? 'bg-white shadow-lg py-2 border-b border-gray-100' : 'bg-transparent py-4'
       }`}
     >
-      <div className="w-full container mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between lg:py-5 items-center">
           <div className="flex items-center">
             <button 
               onClick={() => scrollToSection('top')} 
-              className={`text-2xl font-bold ${isScrolled ? 'text-emerald-600' : 'text-white'}`}
+              className={`text-2xl font-bold transition-colors ${
+                isScrolled ? 'text-[#A83F3C]' : 'text-white'
+              }`}
             >
-                            <Image src={logo} alt="Pharmly Logo"  className="w-auto mb-4" />
+              <Image src={logo} alt="Pharmly Logo" width={120}  className="" />
             </button>
           </div>
           
@@ -51,54 +53,66 @@ const [isOpen, setIsOpen] = useState(false);
           <div className="hidden md:flex items-center space-x-8">
             <button 
               onClick={() => scrollToSection('top')}
-              className={`${isScrolled ? 'text-gray-700' : 'text-white'} hover:text-emerald-500 transition-colors`}
+              className={`font-medium transition-colors ${
+                isScrolled ? 'text-[#2D2D2D] hover:text-[#A83F3C]' : 'text-white hover:text-[#D4A574]'
+              }`}
             >
               Home
             </button>
             <button 
               onClick={() => scrollToSection('how-it-works')}
-              className={`${isScrolled ? 'text-gray-700' : 'text-white'} hover:text-emerald-500 transition-colors`}
+              className={`font-medium transition-colors ${
+                isScrolled ? 'text-[#2D2D2D] hover:text-[#A83F3C]' : 'text-[#4A4A4A] hover:text-[#D4A574]'
+              }`}
             >
               How It Works
             </button>
             <button 
               onClick={() => scrollToSection('for-pharmacies')}
-              className={`${isScrolled ? 'text-gray-700' : 'text-white'} hover:text-emerald-500 transition-colors`}
+              className={`font-medium transition-colors ${
+                isScrolled ? 'text-[#2D2D2D] hover:text-[#A83F3C]' : 'text-white hover:text-[#D4A574]'
+              }`}
             >
               For Pharmacies
             </button>
             <button 
               onClick={() => scrollToSection('for-riders')}
-              className={`${isScrolled ? 'text-gray-700' : 'text-white'} hover:text-emerald-500 transition-colors`}
+              className={`font-medium transition-colors ${
+                isScrolled ? 'text-[#2D2D2D] hover:text-[#A83F3C]' : 'text-white hover:text-[#D4A574]'
+              }`}
             >
               For Riders
             </button>
             <button 
               onClick={() => scrollToSection('data-mission')}
-              className={`${isScrolled ? 'text-gray-700' : 'text-white'} hover:text-emerald-500 transition-colors`}
+              className={`font-medium transition-colors ${
+                isScrolled ? 'text-[#2D2D2D] hover:text-[#A83F3C]' : 'text-white hover:text-[#D4A574]'
+              }`}
             >
               Data Mission
             </button>
             <div className="relative group">
-              <button className={`flex items-center ${isScrolled ? 'text-gray-700' : 'text-white'} hover:text-emerald-500 transition-colors`}>
+              <button className={`flex items-center font-medium transition-colors ${
+                isScrolled ? 'text-[#2D2D2D] hover:text-[#A83F3C]' : 'text-white hover:text-[#D4A574]'
+              }`}>
                 More <ChevronDown className="ml-1 h-4 w-4" />
               </button>
-              <div className="absolute left-0 mt-2 w-48 bg-white rounded-md shadow-lg py-1 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200">
+              <div className="absolute left-0 mt-2 w-48 bg-white rounded-xl shadow-xl py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-gray-100">
                 <button 
                   onClick={() => scrollToSection('about')}
-                  className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-emerald-50"
+                  className="block w-full text-left px-4 py-3 text-sm text-[#2D2D2D] hover:bg-[#F7F5F3] hover:text-[#A83F3C] font-medium"
                 >
                   About
                 </button>
                 <button 
                   onClick={() => scrollToSection('contact')}
-                  className="block w-full text-left px-4 py-2 text-sm text-gray-700 hover:bg-emerald-50"
+                  className="block w-full text-left px-4 py-3 text-sm text-[#2D2D2D] hover:bg-[#F7F5F3] hover:text-[#A83F3C] font-medium"
                 >
                   Contact
                 </button>
               </div>
             </div>
-            <button className="px-4 py-2 rounded-md text-white bg-emerald-600 hover:bg-emerald-700 transition-colors">
+            <button className="px-6 py-3 rounded-xl text-white bg-[#A83F3C] hover:bg-[#8B3530] transition-all duration-300 font-semibold shadow-lg hover:shadow-xl hover:scale-105">
               Log In / Sign Up
             </button>
           </div>
@@ -107,7 +121,9 @@ const [isOpen, setIsOpen] = useState(false);
           <div className="md:hidden flex items-center">
             <button 
               onClick={() => setIsOpen(!isOpen)}
-              className={`${isScrolled ? 'text-gray-700' : 'text-white'} focus:outline-none`}
+              className={`transition-colors ${
+                isScrolled ? 'text-[#2D2D2D]' : 'text-white'
+              } focus:outline-none`}
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -116,51 +132,51 @@ const [isOpen, setIsOpen] = useState(false);
 
         {/* Mobile Navigation Menu */}
         {isOpen && (
-          <div className="md:hidden bg-white rounded-lg mt-2 p-4 shadow-lg">
-            <div className="flex flex-col space-y-3">
+          <div className="md:hidden bg-white rounded-xl mt-4 p-6 shadow-xl border border-gray-100">
+            <div className="flex flex-col space-y-4">
               <button 
                 onClick={() => scrollToSection('top')}
-                className="text-gray-700 hover:text-emerald-500 transition-colors text-left"
+                className="text-[#2D2D2D] hover:text-[#A83F3C] transition-colors text-left font-medium py-2"
               >
                 Home
               </button>
               <button 
                 onClick={() => scrollToSection('how-it-works')}
-                className="text-gray-700 hover:text-emerald-500 transition-colors text-left"
+                className="text-[#2D2D2D] hover:text-[#A83F3C] transition-colors text-left font-medium py-2"
               >
                 How It Works
               </button>
               <button 
                 onClick={() => scrollToSection('for-pharmacies')}
-                className="text-gray-700 hover:text-emerald-500 transition-colors text-left"
+                className="text-[#2D2D2D] hover:text-[#A83F3C] transition-colors text-left font-medium py-2"
               >
                 For Pharmacies
               </button>
               <button 
                 onClick={() => scrollToSection('for-riders')}
-                className="text-gray-700 hover:text-emerald-500 transition-colors text-left"
+                className="text-[#2D2D2D] hover:text-[#A83F3C] transition-colors text-left font-medium py-2"
               >
                 For Riders
               </button>
               <button 
                 onClick={() => scrollToSection('data-mission')}
-                className="text-gray-700 hover:text-emerald-500 transition-colors text-left"
+                className="text-[#2D2D2D] hover:text-[#A83F3C] transition-colors text-left font-medium py-2"
               >
                 Data Mission
               </button>
               <button 
                 onClick={() => scrollToSection('about')}
-                className="text-gray-700 hover:text-emerald-500 transition-colors text-left"
+                className="text-[#2D2D2D] hover:text-[#A83F3C] transition-colors text-left font-medium py-2"
               >
                 About
               </button>
               <button 
                 onClick={() => scrollToSection('contact')}
-                className="text-gray-700 hover:text-emerald-500 transition-colors text-left"
+                className="text-[#2D2D2D] hover:text-[#A83F3C] transition-colors text-left font-medium py-2"
               >
                 Contact
               </button>
-              <button className="px-4 py-2 rounded-md text-white bg-emerald-600 hover:bg-emerald-700 transition-colors text-center">
+              <button className="px-6 py-3 rounded-xl text-white bg-[#A83F3C] hover:bg-[#8B3530] transition-all duration-300 font-semibold text-center shadow-lg">
                 Log In / Sign Up
               </button>
             </div>

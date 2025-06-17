@@ -3,18 +3,24 @@ import { Download, Store, HelpCircle, Bike } from 'lucide-react';
 
 const ContactUs = () => {
   return (
- <section className="py-16 md:py-24 bg-emerald-600 relative overflow-hidden">
+ <section className="py-16 md:py-24 bg-gradient-to-br from-[#A83F3C] via-[#8B3530] to-[#6B2A27] relative overflow-hidden">
       {/* Background Pattern */}
-      <div className="absolute inset-0 opacity-10">
+      {/* <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-full h-full" style={{ 
           backgroundImage: 'url("https://images.pexels.com/photos/7089063/pexels-photo-7089063.jpeg?auto=compress&cs=tinysrgb&w=1600")',
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           filter: 'blur(4px)'
         }}></div>
+      </div> */}
+      
+      {/* Geometric Background Elements */}
+      <div className="absolute inset-0 z-0 opacity-15">
+        <div className="absolute top-20 right-10 w-72 h-72 bg-[#D4A574] rounded-full blur-3xl"></div>
+        <div className="absolute bottom-20 left-10 w-96 h-96 bg-[#B98f89] rounded-full blur-3xl"></div>
       </div>
       
-      <div className="w-full container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-white">
             Join Ghana's Most Responsive Pharmacy System
@@ -24,32 +30,23 @@ const ContactUs = () => {
           </p>
           
           <div className="mt-10 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-            <button className="px-8 py-4 bg-white text-emerald-700 font-medium rounded-md hover:bg-gray-100 transition-colors flex items-center justify-center">
-              <Download className="mr-2 h-5 w-5" />
+            {/* <button className="group px-8 py-4 bg-white text-[#A83F3C] font-semibold rounded-xl hover:bg-[#F7F5F3] transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 flex items-center justify-center">
+              <Download className="mr-3 h-5 w-5 group-hover:scale-110 transition-transform" />
               Get the App
-            </button>
-            <button className="px-8 py-4 bg-yellow-500 text-emerald-900 font-medium rounded-md hover:bg-yellow-400 transition-colors flex items-center justify-center">
-              <Store className="mr-2 h-5 w-5" />
+            </button> */}
+            <button className="group px-8 py-4 bg-[#D4A574] text-white font-semibold rounded-xl hover:bg-[#C19660] transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 flex items-center justify-center">
+              <Store className="mr-3 h-5 w-5 group-hover:scale-110 transition-transform" />
               Partner with Pharmly
             </button>
-            <button className="px-8 py-4 bg-emerald-700 text-white font-medium rounded-md hover:bg-emerald-800 transition-colors flex items-center justify-center">
-              <HelpCircle className="mr-2 h-5 w-5" />
+            <button className="group px-8 py-4 bg-[#7B9E87] text-white font-semibold rounded-xl hover:bg-[#6B8E77] transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 flex items-center justify-center">
+              <HelpCircle className="mr-3 h-5 w-5 group-hover:scale-110 transition-transform" />
               See How It Works
-            </button>
-            <button className="px-8 py-4 bg-[#A83F3C] text-white font-medium rounded-md hover:bg-[#FA8334] transition-colors flex items-center justify-center">
-              <Bike className="mr-2 h-5 w-5" />
-              Become a Rider
             </button>
           </div>
         </div>
       </div>
       
-      {/* Wave SVG Divider */}
-      {/* <div className="absolute bottom-0 left-0 right-0 transform rotate-180">
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 120" fill="white">
-          <path d="M0,96L60,80C120,64,240,32,360,32C480,32,600,64,720,69.3C840,75,960,53,1080,42.7C1200,32,1320,32,1380,32L1440,32L1440,120L1380,120C1320,120,1200,120,1080,120C960,120,840,120,720,120C600,120,480,120,360,120C240,120,120,120,60,120L0,120Z"></path>
-        </svg>
-      </div> */}
+
     </section>
   )
 }

@@ -1,125 +1,125 @@
 import { User, Building2, Bike } from 'lucide-react';
 const TargetUsers = () => {
   return (
-<section className="py-16 md:py-24 bg-gray-50">
-      <div className="w-full container mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-16 md:py-24 bg-[#F7F5F3]">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">Who It's For</h2>
-          <p className="mt-4 text-xl text-gray-600 max-w-3xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#2D2D2D]">Who It's For</h2>
+          <p className="mt-4 text-xl text-[#6B6B6B] max-w-3xl mx-auto">
             Pharmly benefits everyone in the medication supply chain, creating value for all stakeholders.
           </p>
         </div>
         
         <div className="grid md:grid-cols-3 gap-8">
           {/* Patients Card */}
-          <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm transition-all duration-300 hover:shadow-md hover:border-emerald-200">
-            <div className="w-16 h-16 bg-emerald-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-              <User className="h-8 w-8 text-emerald-600" />
+          <div className="bg-white rounded-2xl p-8 border-2 border-[#E8E2E0] shadow-lg transition-all duration-300 hover:shadow-xl hover:border-[#A83F3C] hover:transform hover:-translate-y-2">
+            <div className="w-16 h-16 bg-[#F7F5F3] rounded-full flex items-center justify-center mb-6 mx-auto border-2 border-[#A83F3C]">
+              <User className="h-8 w-8 text-[#A83F3C]" />
             </div>
             
-            <h3 className="text-xl font-semibold text-center text-gray-900 mb-4">For Patients</h3>
+            <h3 className="text-xl font-semibold text-center text-[#2D2D2D] mb-6">For Patients</h3>
             
-            <ul className="space-y-3 text-gray-700">
+            <ul className="space-y-4 text-[#6B6B6B]">
               <li className="flex items-start">
-                <span className="w-5 h-5 m-auto bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 text-center mr-2 flex items-center justify-center text-xs">✓</span>
-                <span>Search for medications across multiple pharmacies</span>
-              </li>
-              <li className="flex items-start m-auto">
-                <span className="w-5 h-5 m-auto bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 text-center mr-2 flex items-center justify-center text-xs">✓</span>
-                <span>Get your prescriptions delivered to your doorstep</span>
+                <span className=" w-5 h-5 bg-[#F7F5F3] rounded-full text-[#A83F3C] flex-shrink-0 mt-1 mr-3 flex items-center justify-center text-xs font-bold border border-[#A83F3C]">✓</span>
+                <span className="font-medium">Search for medications across multiple pharmacies</span>
               </li>
               <li className="flex items-start">
-                <span className="w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 text-center mr-2 flex items-center justify-center text-xs">✓</span>
-                <span>Track your order in real-time</span>
+                <span className=" w-5 h-5 bg-[#F7F5F3] rounded-full text-[#A83F3C] flex-shrink-0 mt-1 mr-3 flex items-center justify-center text-xs font-bold border border-[#A83F3C]">✓</span>
+                <span className="font-medium">Get your prescriptions delivered to your doorstep</span>
               </li>
               <li className="flex items-start">
-                <span className="w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 text-center mr-2 flex items-center justify-center text-xs">✓</span>
-                <span>Refill medications with one tap</span>
+                <span className=" w-5 h-5 bg-[#F7F5F3] rounded-full text-[#A83F3C] flex-shrink-0 mt-1 mr-3 flex items-center justify-center text-xs font-bold border border-[#A83F3C]">✓</span>
+                <span className="font-medium">Track your order in real-time</span>
               </li>
               <li className="flex items-start">
-                <span className="w-5 h-5 bg-emerald-100 rounded-full text-emerald-600 flex-shrink-0 mt-1 text-center mr-2 flex items-center justify-center text-xs">✓</span>
-                <span>Pay securely with Mobile Money</span>
+                <span className=" w-5 h-5 bg-[#F7F5F3] rounded-full text-[#A83F3C] flex-shrink-0 mt-1 mr-3 flex items-center justify-center text-xs font-bold border border-[#A83F3C]">✓</span>
+                <span className="font-medium">Refill medications with one tap</span>
+              </li>
+              <li className="flex items-start">
+                <span className=" w-5 h-5 bg-[#F7F5F3] rounded-full text-[#A83F3C] flex-shrink-0 mt-1 mr-3 flex items-center justify-center text-xs font-bold border border-[#A83F3C]">✓</span>
+                <span className="font-medium">Pay securely with Mobile Money</span>
               </li>
             </ul>
             
-            <div className="mt-6 text-center">
-              <a href="#" className="inline-block text-emerald-600 font-medium hover:text-emerald-700 transition-colors">
+            <div className="mt-8 text-center">
+              <a href="#" className=" text-[#A83F3C] font-semibold hover:text-[#8B3530] transition-colors border-b-2 border-[#A83F3C] hover:border-[#8B3530] pb-1">
                 Learn more
               </a>
             </div>
           </div>
           
           {/* Pharmacies Card */}
-          <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm transition-all duration-300 hover:shadow-md hover:border-emerald-200">
-            <div className="w-16 h-16 bg-blue-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-              <Building2 className="h-8 w-8 text-blue-600" />
+          <div className="bg-white rounded-2xl p-8 border-2 border-[#E8E2E0] shadow-lg transition-all duration-300 hover:shadow-xl hover:border-[#7B9E87] hover:transform hover:-translate-y-2">
+            <div className="w-16 h-16 bg-[#F7F5F3] rounded-full flex items-center justify-center mb-6 mx-auto border-2 border-[#7B9E87]">
+              <Building2 className="h-8 w-8 text-[#7B9E87]" />
             </div>
             
-            <h3 className="text-xl font-semibold text-center text-gray-900 mb-4">For Pharmacies</h3>
+            <h3 className="text-xl font-semibold text-center text-[#2D2D2D] mb-6">For Pharmacies</h3>
             
-            <ul className="space-y-3 text-gray-700">
+            <ul className="space-y-4 text-[#6B6B6B]">
               <li className="flex items-start">
-                <span className="w-5 h-5 bg-blue-100 rounded-full text-blue-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
-                <span>Expand your customer reach beyond physical location</span>
+                <span className=" w-5 h-5 bg-[#F7F5F3] rounded-full text-[#7B9E87] flex-shrink-0 mt-1 mr-3 flex items-center justify-center text-xs font-bold border border-[#7B9E87]">✓</span>
+                <span className="font-medium">Expand your customer reach beyond physical location</span>
               </li>
               <li className="flex items-start">
-                <span className="w-5 h-5 bg-blue-100 rounded-full text-blue-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
-                <span>Digital inventory management system</span>
+                <span className=" w-5 h-5 bg-[#F7F5F3] rounded-full text-[#7B9E87] flex-shrink-0 mt-1 mr-3 flex items-center justify-center text-xs font-bold border border-[#7B9E87]">✓</span>
+                <span className="font-medium">Digital inventory management system</span>
               </li>
               <li className="flex items-start">
-                <span className="w-5 h-5 bg-blue-100 rounded-full text-blue-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
-                <span>Prescription logging and verification</span>
+                <span className=" w-5 h-5 bg-[#F7F5F3] rounded-full text-[#7B9E87] flex-shrink-0 mt-1 mr-3 flex items-center justify-center text-xs font-bold border border-[#7B9E87]">✓</span>
+                <span className="font-medium">Prescription logging and verification</span>
               </li>
               <li className="flex items-start">
-                <span className="w-5 h-5 bg-blue-100 rounded-full text-blue-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
-                <span>Streamlined order fulfillment process</span>
+                <span className=" w-5 h-5 bg-[#F7F5F3] rounded-full text-[#7B9E87] flex-shrink-0 mt-1 mr-3 flex items-center justify-center text-xs font-bold border border-[#7B9E87]">✓</span>
+                <span className="font-medium">Streamlined order fulfillment process</span>
               </li>
               <li className="flex items-start">
-                <span className="w-5 h-5 bg-blue-100 rounded-full text-blue-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
-                <span>Analytics dashboard for sales insights</span>
+                <span className=" w-5 h-5 bg-[#F7F5F3] rounded-full text-[#7B9E87] flex-shrink-0 mt-1 mr-3 flex items-center justify-center text-xs font-bold border border-[#7B9E87]">✓</span>
+                <span className="font-medium">Analytics dashboard for sales insights</span>
               </li>
             </ul>
             
-            <div className="mt-6 text-center">
-              <a href="#for-pharmacies" className="inline-block text-blue-600 font-medium hover:text-blue-700 transition-colors">
+            <div className="mt-8 text-center">
+              <a href="#for-pharmacies" className=" text-[#7B9E87] font-semibold hover:text-[#6B8E77] transition-colors border-b-2 border-[#7B9E87] hover:border-[#6B8E77] pb-1">
                 Partner with us
               </a>
             </div>
           </div>
           
           {/* Riders Card */}
-          <div className="bg-white rounded-xl p-6 border border-gray-200 shadow-sm transition-all duration-300 hover:shadow-md hover:border-emerald-200">
-            <div className="w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-6 mx-auto">
-              <Bike className="h-8 w-8 text-yellow-600" />
+          <div className="bg-white rounded-2xl p-8 border-2 border-[#E8E2E0] shadow-lg transition-all duration-300 hover:shadow-xl hover:border-[#D4A574] hover:transform hover:-translate-y-2">
+            <div className="w-16 h-16 bg-[#F7F5F3] rounded-full flex items-center justify-center mb-6 mx-auto border-2 border-[#D4A574]">
+              <Bike className="h-8 w-8 text-[#D4A574]" />
             </div>
             
-            <h3 className="text-xl font-semibold text-center text-gray-900 mb-4">For Riders</h3>
+            <h3 className="text-xl font-semibold text-center text-[#2D2D2D] mb-6">For Riders</h3>
             
-            <ul className="space-y-3 text-gray-700">
+            <ul className="space-y-4 text-[#6B6B6B]">
               <li className="flex items-start">
-                <span className="w-5 h-5 bg-yellow-100 rounded-full text-yellow-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
-                <span>Flexible working hours on your own schedule</span>
+                <span className=" w-5 h-5 bg-[#F7F5F3] rounded-full text-[#D4A574] flex-shrink-0 mt-1 mr-3 flex items-center justify-center text-xs font-bold border border-[#D4A574]">✓</span>
+                <span className="font-medium">Flexible working hours on your own schedule</span>
               </li>
               <li className="flex items-start">
-                <span className="w-5 h-5 bg-yellow-100 rounded-full text-yellow-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
-                <span>Competitive weekly earnings</span>
+                <span className=" w-5 h-5 bg-[#F7F5F3] rounded-full text-[#D4A574] flex-shrink-0 mt-1 mr-3 flex items-center justify-center text-xs font-bold border border-[#D4A574]">✓</span>
+                <span className="font-medium">Competitive weekly earnings</span>
               </li>
               <li className="flex items-start">
-                <span className="w-5 h-5 bg-yellow-100 rounded-full text-yellow-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
-                <span>GPS-optimized routes for efficient deliveries</span>
+                <span className=" w-5 h-5 bg-[#F7F5F3] rounded-full text-[#D4A574] flex-shrink-0 mt-1 mr-3 flex items-center justify-center text-xs font-bold border border-[#D4A574]">✓</span>
+                <span className="font-medium">GPS-optimized routes for efficient deliveries</span>
               </li>
               <li className="flex items-start">
-                <span className="w-5 h-5 bg-yellow-100 rounded-full text-yellow-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
-                <span>In-app support and training</span>
+                <span className=" w-5 h-5 bg-[#F7F5F3] rounded-full text-[#D4A574] flex-shrink-0 mt-1 mr-3 flex items-center justify-center text-xs font-bold border border-[#D4A574]">✓</span>
+                <span className="font-medium">In-app support and training</span>
               </li>
               <li className="flex items-start">
-                <span className="w-5 h-5 bg-yellow-100 rounded-full text-yellow-600 flex-shrink-0 mt-1 mr-2 flex items-center justify-center text-xs">✓</span>
-                <span>Immediate payment processing</span>
+                <span className=" w-5 h-5 bg-[#F7F5F3] rounded-full text-[#D4A574] flex-shrink-0 mt-1 mr-3 flex items-center justify-center text-xs font-bold border border-[#D4A574]">✓</span>
+                <span className="font-medium">Immediate payment processing</span>
               </li>
             </ul>
             
-            <div className="mt-6 text-center">
-              <a href="#for-riders" className="inline-block text-yellow-600 font-medium hover:text-yellow-700 transition-colors">
+            <div className="mt-8 text-center">
+              <a href="#for-riders" className=" text-[#D4A574] font-semibold hover:text-[#C19660] transition-colors border-b-2 border-[#D4A574] hover:border-[#C19660] pb-1">
                 Become a rider
               </a>
             </div>
