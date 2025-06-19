@@ -59,8 +59,35 @@ const [isOpen, setIsOpen] = useState(false);
             >
               Home
             </button>
-            <button 
-              onClick={() => scrollToSection('how-it-works')}
+                        <div className="relative group">
+              <button className={`flex items-center font-medium transition-colors ${
+                isScrolled ? 'text-[#2D2D2D] hover:text-[#A83F3C]' : 'text-white hover:text-[#D4A574]'
+              }`}>
+                About <ChevronDown className="ml-1 h-4 w-4" />
+              </button>
+              <div className="absolute left-0 mt-2 w-48 bg-white rounded-xl shadow-xl py-2 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 border border-gray-100">
+                <button 
+                  onClick={() => scrollToSection('why-we-exist')}
+                  className="block w-full text-left px-4 py-3 text-sm text-[#2D2D2D] hover:bg-[#F7F5F3] hover:text-[#A83F3C] font-medium"
+                >
+                  Why we exist
+                </button>
+                <button 
+                  onClick={() => scrollToSection('who-its-for')}
+                  className="block w-full text-left px-4 py-3 text-sm text-[#2D2D2D] hover:bg-[#F7F5F3] hover:text-[#A83F3C] font-medium"
+                >
+                  Who it's for
+                </button>
+                <button 
+                  onClick={() => scrollToSection('how-it-works')}
+                  className="block w-full text-left px-4 py-3 text-sm text-[#2D2D2D] hover:bg-[#F7F5F3] hover:text-[#A83F3C] font-medium"
+                >
+                  How it works
+                </button>
+              </div>
+            </div>
+            {/* <button 
+              onClick={() => scrollToSection('why-we-exist')}
               className={`font-medium transition-colors ${
                 isScrolled ? 'text-[#2D2D2D] hover:text-[#A83F3C]' : 'text-[#4A4A4A] hover:text-[#D4A574]'
               }`}
@@ -73,8 +100,8 @@ const [isOpen, setIsOpen] = useState(false);
                 isScrolled ? 'text-[#2D2D2D] hover:text-[#A83F3C]' : 'text-white hover:text-[#D4A574]'
               }`}
             >
-              For Pharmacies
-            </button>
+              Who it's For
+            </button> */}
             <button 
               onClick={() => scrollToSection('for-riders')}
               className={`font-medium transition-colors ${

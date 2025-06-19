@@ -2,7 +2,7 @@
 import { CheckCircle2, ChevronRight, MapPin, MessageSquare, Navigation, Phone } from 'lucide-react';
 const AppPreview = () => {
   return (
- <section className="py-16 md:py-24 bg-white overflow-hidden relative">
+ <section className="py-16 md:py-36 bg-white overflow-hidden relative" id='how-it-works'>
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute -top-24 -right-24 w-96 h-96 bg-[#D4A574] rounded-full blur-3xl"></div>
@@ -126,7 +126,7 @@ const AppPreview = () => {
                     {/* Delivery Route - Dotted Line */}
                     <svg className="absolute inset-0 w-full h-full" viewBox="0 0 300 320">
                       <path
-                        d="M 80 60 Q 150 100 220 140 Q 250 160 240 200 Q 230 240 200 260"
+                        d="M 60 90 L 100 120 L 240 200 L 280 250"
                         stroke="#6B8E5A"
                         strokeWidth="4"
                         strokeDasharray="10,5"
@@ -134,6 +134,16 @@ const AppPreview = () => {
                         className="animate-pulse"
                       />
                     </svg>
+                    {/* <svg className="absolute inset-0 w-full h-full" viewBox="0 0 300 320">
+                      <path
+                        d="M 80 60 L 200 260"
+                        stroke="#6B8E5A"
+                        strokeWidth="4"
+                        strokeDasharray="10,5"
+                        fill="none"
+                        className="animate-pulse"
+                      />
+                    </svg> */}
                   </div>
                   
                   {/* Pharmacy Pin */}

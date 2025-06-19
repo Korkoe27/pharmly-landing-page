@@ -6,16 +6,18 @@ import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import TargetUsers from "@/components/TargetUsers";
 import WhyPharmly from "@/components/WhyPharmly";
+import WaitingList from "@/components/WaitingList";
 
 export default function Home() {
   return (
-    <div className="">
+    <div className="no-scrollbar">
     <Navbar/>
     <Hero />
     <WhyPharmly/>
     <TargetUsers/>
     <AppPreview/>
     <DataPurpose/>
+    <WaitingList/>
     <ContactUs/>
     <Footer/>
     </div>
