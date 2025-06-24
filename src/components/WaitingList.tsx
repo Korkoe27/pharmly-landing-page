@@ -123,7 +123,7 @@ const WaitlistSection: React.FC = () => {
   if (isSubmitted) {
     return (
       <div  id="beta-test" className="py-12 sm:py-16 md:py-20 lg:py-36 bg-gradient-to-br from-[#F7F5F3] to-white min-h-screen flex items-center">
-        <div className="max-w-4xl mx-auto px-10 sm:px-6 lg:px-8 w-full">
+        <div className="max-w-7xl mx-auto px-10 sm:px-6 lg:px-8 w-full">
           <div className="bg-white rounded-2xl sm:rounded-3xl shadow-xl sm:shadow-2xl p-6 sm:p-8 md:p-10 lg:p-12 border-2 border-[#E8E2E0]">
             <div className="w-16 h-16 sm:w-20 sm:h-20 bg-[#6B8E5A] rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
               <CheckCircle2 className="h-8 w-8 sm:h-10 sm:w-10 text-white" />
@@ -179,7 +179,7 @@ const WaitlistSection: React.FC = () => {
 
   return (
     <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gradient-to-br from-[#F7F5F3] to-white">
-      <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="max-w-7xl mx-auto px-10 sm:px-6 lg:px-8">
         <div className="text-center mb-8 sm:mb-10 lg:mb-12">
           <div className="inline-flex items-center px-4 sm:px-6 py-2 sm:py-3 bg-[#A83F3C] bg-opacity-10 rounded-full text-white text-xs sm:text-sm font-medium mb-4 sm:mb-6 backdrop-blur-sm border border-[#A83F3C] border-opacity-20">
             <span className="w-2 h-2 text-white bg-white rounded-full mr-2 sm:mr-3 animate-pulse"></span>

@@ -9,7 +9,7 @@ const AppPreview = () => {
         <div className="absolute bottom-12 -left-24 w-64 h-64 bg-[#7B9E87] rounded-full blur-3xl"></div>
       </div>
       
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div className="max-w-7xl mx-auto px-10 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-[#2D2D2D]">Built for Ghana. Built for Ease.</h2>
           <p className="mt-4 text-xl text-[#6B6B6B] max-w-3xl mx-auto">
@@ -17,7 +17,7 @@ const AppPreview = () => {
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 gap-12 items-center">
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1">
             <div className="space-y-6">
               <div className="bg-[#F7F5F3] rounded-2xl p-6 border-2 border-[#E8E2E0] transition-all duration-300 hover:shadow-lg hover:border-[#A83F3C]">
@@ -25,7 +25,7 @@ const AppPreview = () => {
                   <div className="flex-shrink-0 mt-1">
                     <CheckCircle2 className="h-6 w-6 text-[#6B8E5A]" />
                   </div>
-                  <div className="ml-4">
+                  <div className="mx-auto">
                     <h3 className="text-lg font-semibold text-[#2D2D2D]">Simple Prescription Upload</h3>
                     <p className="mt-2 text-[#6B6B6B] font-medium">
                       Take a photo of your prescription or upload an existing image. Our system will process it securely.
@@ -39,7 +39,7 @@ const AppPreview = () => {
                   <div className="flex-shrink-0 mt-1">
                     <CheckCircle2 className="h-6 w-6 text-[#6B8E5A]" />
                   </div>
-                  <div className="ml-4">
+                  <div className="mx-auto">
                     <h3 className="text-lg font-semibold text-[#2D2D2D]">Find Available Medications</h3>
                     <p className="mt-2 text-[#6B6B6B] font-medium">
                       Our app searches nearby pharmacies to find your medications, saving you time and effort.
@@ -53,7 +53,7 @@ const AppPreview = () => {
                   <div className="flex-shrink-0 mt-1">
                     <CheckCircle2 className="h-6 w-6 text-[#6B8E5A]" />
                   </div>
-                  <div className="ml-4">
+                  <div className="mx-auto">
                     <h3 className="text-lg font-semibold text-[#2D2D2D]">Real-time Delivery Tracking</h3>
                     <p className="mt-2 text-[#6B6B6B] font-medium">
                       Follow your medication's journey from the pharmacy to your doorstep with our live tracking feature.
@@ -67,7 +67,7 @@ const AppPreview = () => {
                   <div className="flex-shrink-0 mt-1">
                     <CheckCircle2 className="h-6 w-6 text-[#6B8E5A]" />
                   </div>
-                  <div className="ml-4">
+                  <div className="mx-auto">
                     <h3 className="text-lg font-semibold text-[#2D2D2D]">Medication Reminders</h3>
                     <p className="mt-2 text-[#6B6B6B] font-medium">
                       Never miss a dose with personalized medication reminders. Refill with just one tap when you're running low.
@@ -149,14 +149,14 @@ const AppPreview = () => {
                   {/* Pharmacy Pin */}
                   <div className="absolute top-12 left-16">
                     <div className="relative">
-                      <div className="w-10 h-10 bg-[#6B8E5A] rounded-full flex items-center justify-center shadow-xl border-2 border-white">
+                      <div className="w-5 h-5 lg:w-10 lg:h-10 bg-[#6B8E5A] rounded-full flex items-center justify-center shadow-xl border-2 border-white">
                         <div className="w-5 h-5 bg-white rounded-sm flex items-center justify-center">
                           <div className="w-2 h-2 bg-[#6B8E5A] rounded-full"></div>
                         </div>
                       </div>
                       <div className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-6 border-transparent border-t-[#6B8E5A]"></div>
                       {/* Pharmacy Label */}
-                      <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 bg-white px-3 py-2 rounded-lg shadow-lg text-xs font-semibold whitespace-nowrap border border-[#E8E2E0]">
+                      <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 bg-white text-[#0D1821] px-3 py-2 rounded-lg shadow-lg text-xs font-semibold whitespace-nowrap border border-[#E8E2E0]">
                         Pharmacy
                       </div>
                     </div>
@@ -179,7 +179,7 @@ const AppPreview = () => {
                       </div>
                       <div className="absolute -bottom-1 left-1/2 transform -translate-x-1/2 w-0 h-0 border-l-4 border-r-4 border-t-6 border-transparent border-t-[#D4A574]"></div>
                       {/* Home Label */}
-                      <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 bg-white px-3 py-2 rounded-lg shadow-lg text-xs font-semibold whitespace-nowrap border border-[#E8E2E0]">
+                      <div className="absolute -top-12 left-1/2 transform -translate-x-1/2 bg-white text-[#0D1821] px-3 py-2 rounded-lg shadow-lg text-xs font-semibold whitespace-nowrap border border-[#E8E2E0]">
                         Home
                       </div>
                     </div>
@@ -225,7 +225,7 @@ const AppPreview = () => {
               </div>
               
               {/* Floating Status Card */}
-              <div className="absolute -top-4 -right-4 bg-white rounded-xl shadow-xl p-4 border-2 border-[#E8E2E0] transform rotate-3">
+              <div className="absolute lg:-top-4 -top-12 -right-2 lg:-right-4 bg-white lg:bg-white rounded-xl shadow-xl md:p-4 p-2 border-2 border-[#E8E2E0] transform rotate-3">
                 <div className="text-center">
                   <div className="text-xs text-[#6B6B6B] font-medium mb-1">Order Status</div>
                   <div className="text-sm font-bold text-[#6B8E5A]">Out for Delivery</div>
@@ -236,7 +236,7 @@ const AppPreview = () => {
               </div>
               
               {/* Floating Medication Card */}
-              <div className="absolute -bottom-6 -left-6 bg-white rounded-xl shadow-xl p-4 border-2 border-[#E8E2E0] transform -rotate-2 w-48">
+              <div className="absolute -bottom-20 lg:-left-6 bg-white rounded-xl shadow-xl p-4 border-2 border-[#E8E2E0] transform -rotate-2 w-44 lg:w-48">
                 <div className="text-xs text-[#6B6B6B] font-medium mb-2">Your Medications</div>
                 <div className="space-y-2">
                   <div className="flex justify-between text-sm">

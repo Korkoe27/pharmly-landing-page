@@ -104,16 +104,16 @@ const DataPurpose = () => {
               <div className="grid grid-cols-2 gap-4 mb-4">
                 <div className="bg-[#F7F5F3] rounded-xl p-4 border-2 border-[#E8E2E0]">
                   <div className="text-sm text-[#6B6B6B] font-medium mb-1">Medications Delivered</div>
-                  <div className="text-2xl font-bold text-[#2D2D2D]">254,380</div>
+                  <div className="text-xl font-bold text-[#2D2D2D]">254,380</div>
                   <div className="flex items-center text-xs text-[#6B8E5A] font-medium">
-                    <TrendingUp className="h-3 w-3 mr-1" /> +12% from last month
+                    <TrendingUp className="h-2 w-2" /> +12% from last month
                   </div>
                 </div>
                 <div className="bg-[#F7F5F3] rounded-xl p-4 border-2 border-[#E8E2E0]">
                   <div className="text-sm text-[#6B6B6B] font-medium mb-1">Regions Covered</div>
-                  <div className="text-2xl font-bold text-[#2D2D2D]">14 of 16</div>
+                  <div className="text-xl font-bold text-[#2D2D2D]">14 of 16</div>
                   <div className="flex items-center text-xs text-[#6B8E5A] font-medium">
-                    <TrendingUp className="h-3 w-3 mr-1" /> +2 from last quarter
+                    <TrendingUp className="h-2 w-2 mr-1" /> +2 from last quarter
                   </div>
                 </div>
               </div>
