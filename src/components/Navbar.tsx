@@ -8,10 +8,10 @@ import Image from "next/image";
 const Navbar = () => {
 const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
-
+console.log("is scrolled");
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 10) {
+      if (window.scrollY > 50) {
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
@@ -23,11 +23,15 @@ const [isOpen, setIsOpen] = useState(false);
   }, []);
 
   const scrollToSection = (id: string) => {
+
+    console.log("Id:" + id);
     setIsOpen(false);
     const element = document.getElementById(id);
     if (element) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
+
+
   };
 
   return (
@@ -50,18 +54,18 @@ const [isOpen, setIsOpen] = useState(false);
           </div>
           
           {/* Desktop Navigation */}
-          <div className="hidden md:flex items-center space-x-8">
+          <div className="hidden md:flex items-center lg:text-lg space-x-8">
             <button 
               onClick={() => scrollToSection('top')}
               className={`font-medium transition-colors ${
-                isScrolled ? 'text-[#2D2D2D] hover:text-[#A83F3C]' : 'text-white hover:text-[#D4A574]'
+                isScrolled ? 'text-[#2D2D2D] hover:text-[#A83F3C]' : 'text-[#0D1821] hover:text-[#D4A574]'
               }`}
             >
               Home
             </button>
                         <div className="relative group">
               <button className={`flex items-center font-medium transition-colors ${
-                isScrolled ? 'text-[#2D2D2D] hover:text-[#A83F3C]' : 'text-white hover:text-[#D4A574]'
+                isScrolled ? 'text-[#2D2D2D] hover:text-[#A83F3C]' : 'text-[#0D1821] hover:text-[#D4A574]'
               }`}>
                 About <ChevronDown className="ml-1 h-4 w-4" />
               </button>
@@ -102,23 +106,29 @@ const [isOpen, setIsOpen] = useState(false);
             >
               Who it's For
             </button> */}
+
             <button 
-              onClick={() => scrollToSection('for-riders')}
+              onClick={() => scrollToSection('our-impact')}
               className={`font-medium transition-colors ${
-                isScrolled ? 'text-[#2D2D2D] hover:text-[#A83F3C]' : 'text-white hover:text-[#D4A574]'
+                isScrolled ? 'text-[#2D2D2D] hover:text-[#A83F3C]' : 'text-[#0D1821] hover:text-[#D4A574]'
               }`}
             >
-              For Riders
+              Our Impact
             </button>
+
+
+            
             <button 
-              onClick={() => scrollToSection('data-mission')}
+              onClick={() => scrollToSection('beta-test')}
               className={`font-medium transition-colors ${
-                isScrolled ? 'text-[#2D2D2D] hover:text-[#A83F3C]' : 'text-white hover:text-[#D4A574]'
+                isScrolled ? 'text-[#2D2D2D] hover:text-[#A83F3C]' : 'text-[#0D1821] hover:text-[#D4A574]'
               }`}
             >
-              Data Mission
+              Beta Testing
             </button>
-            <div className="relative group">
+
+
+            {/* <div className="relative group">
               <button className={`flex items-center font-medium transition-colors ${
                 isScrolled ? 'text-[#2D2D2D] hover:text-[#A83F3C]' : 'text-white hover:text-[#D4A574]'
               }`}>
@@ -138,10 +148,11 @@ const [isOpen, setIsOpen] = useState(false);
                   Contact
                 </button>
               </div>
-            </div>
+            </div> 
             <button className="px-6 py-3 rounded-xl text-white bg-[#A83F3C] hover:bg-[#8B3530] transition-all duration-300 font-semibold shadow-lg hover:shadow-xl hover:scale-105">
               Log In / Sign Up
             </button>
+            */}
           </div>
 
           {/* Mobile Navigation Button */}

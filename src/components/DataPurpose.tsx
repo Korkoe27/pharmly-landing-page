@@ -4,8 +4,8 @@ import { LineChart, BarChart, PieChart, TrendingUp } from 'lucide-react';
 
 const DataPurpose = () => {
   return (
- <section id="data-mission" className="py-16 md:py-24 bg-gradient-to-b from-[#F7F5F3] to-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+ <section id="our-impact" className="py-16 lg:py-36 bg-gradient-to-b from-[#F7F5F3] to-white">
+      <div className="max-w-7xl mx-auto px-10 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-[#2D2D2D]">Every Order Counts — For More Than You Think</h2>
           <p className="mt-4 text-xl text-[#6B6B6B] max-w-3xl mx-auto">

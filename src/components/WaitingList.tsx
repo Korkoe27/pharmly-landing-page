@@ -122,8 +122,8 @@ const WaitlistSection: React.FC = () => {
 
   if (isSubmitted) {
     return (
-      <section className="py-12 sm:py-16 md:py-20 lg:py-24 bg-gradient-to-br from-[#F7F5F3] to-white min-h-screen flex items-center">
-        <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 w-full">
+      <div  id="beta-test" className="py-12 sm:py-16 md:py-20 lg:py-36 bg-gradient-to-br from-[#F7F5F3] to-white min-h-screen flex items-center">
+        <div className="max-w-4xl mx-auto px-10 sm:px-6 lg:px-8 w-full">
           <div className="bg-white rounded-2xl sm:rounded-3xl shadow-xl sm:shadow-2xl p-6 sm:p-8 md:p-10 lg:p-12 border-2 border-[#E8E2E0]">
             <div className="w-16 h-16 sm:w-20 sm:h-20 bg-[#6B8E5A] rounded-full flex items-center justify-center mx-auto mb-4 sm:mb-6">
               <CheckCircle2 className="h-8 w-8 sm:h-10 sm:w-10 text-white" />
@@ -173,7 +173,7 @@ const WaitlistSection: React.FC = () => {
             </button>
           </div>
         </div>
-      </section>
+      </div>
     );
   }
 
@@ -442,7 +442,7 @@ const WaitlistSection: React.FC = () => {
         </div>
 
         {/* Stats Section */}
-        <div className="mt-8 sm:mt-10 lg:mt-12 grid grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
+        <div className="mt-8 sm:mt-10 flex justify-between w-full lg:mt-12 lg:grid lg:grid-cols-1 sm:grid-cols-3 gap-4 sm:gap-6">
           <div className="bg-white rounded-xl sm:rounded-2xl p-4 sm:p-6 border-2 border-[#E8E2E0] shadow-lg text-center">
             <div className="text-2xl sm:text-3xl font-bold text-[#A83F3C] mb-1 sm:mb-2">500+</div>
             <div className="text-xs sm:text-sm text-[#6B6B6B] font-medium">Early Adopters</div>

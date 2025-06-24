@@ -3,7 +3,7 @@ import { Download, Store, HelpCircle, Bike } from 'lucide-react';
 
 const ContactUs = () => {
   return (
- <section className="py-16 md:py-24 bg-gradient-to-br from-[#A83F3C] via-[#8B3530] to-[#6B2A27] relative overflow-hidden">
+ <section className="py-16 md:py-24 bg-[#BDE5C9] relative overflow-hidden">
       {/* Background Pattern */}
       {/* <div className="absolute inset-0 opacity-10">
         <div className="absolute top-0 left-0 w-full h-full" style={{ 
@@ -22,10 +22,10 @@ const ContactUs = () => {
       
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center">
-          <h2 className="text-3xl md:text-4xl font-bold text-white">
+          <h2 className="text-3xl md:text-4xl font-bold text-[#0D1821]">
             Join Ghana's Most Responsive Pharmacy System
           </h2>
-          <p className="mt-4 text-xl text-white text-opacity-90 max-w-3xl mx-auto">
+          <p className="mt-4 text-xl text-[#0D1821] text-opacity-90 max-w-3xl mx-auto">
             Whether you're a patient, pharmacist, or policymaker — join us in building Ghana's most responsive pharmacy system.
           </p>
           

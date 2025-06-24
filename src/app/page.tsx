@@ -1,5 +1,5 @@
 import AppPreview from "@/components/AppPreview";
-import ContactUs from "@/components/ContactUs";
+// import ContactUs from "@/components/ContactUs";
 import DataPurpose from "@/components/DataPurpose";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
@@ -10,7 +10,7 @@ import WaitingList from "@/components/WaitingList";
 
 export default function Home() {
   return (
-    <div className="no-scrollbar">
+    <div className="no-scrollbar h-svh">
     <Navbar/>
     <Hero />
     <WhyPharmly/>
@@ -18,7 +18,7 @@ export default function Home() {
     <AppPreview/>
     <DataPurpose/>
     <WaitingList/>
-    <ContactUs/>
+    {/* <ContactUs/> */}
     <Footer/>
     </div>
 
