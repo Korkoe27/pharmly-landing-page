@@ -26,7 +26,7 @@ const AppPreview = () => {
                     <CheckCircle2 className="h-6 w-6 text-[#6B8E5A]" />
                   </div>
                   <div className="mx-auto">
-                    <h3 className="text-lg font-semibold text-[#2D2D2D]">Simple Prescription Upload:Grace Siaw</h3>
+                    <h3 className="text-lg font-semibold text-[#2D2D2D]">Simple Prescription Upload</h3>
                     <p className="mt-2 text-[#6B6B6B] font-medium">
                       Take a photo of your prescription or upload an existing image. Our system will process it securely.
                     </p>
