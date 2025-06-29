@@ -85,7 +85,7 @@ const AppPreview = () => {
             </div>
           </div>
           
-          <div className="order-1 md:order-2 flex justify-center">
+          <div className="order-1 md:order-2 my-10 md:my-0 flex justify-center">
             <div className="relative w-full max-w-md">
               {/* Delivery Tracking Interface */}
               <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border-2 border-[#E8E2E0]">
