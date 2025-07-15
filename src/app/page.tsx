@@ -4,7 +4,7 @@ import DataPurpose from "@/components/DataPurpose";
 import Footer from "@/components/Footer";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
-import TargetUsers from "@/components/TargetUsers";
+// import TargetUsers from "@/components/TargetUsers";
 import WhyPharmly from "@/components/WhyPharmly";
 import WaitingList from "@/components/WaitingList";
 
@@ -14,7 +14,7 @@ export default function Home() {
     <Navbar/>
     <Hero />
     <WhyPharmly/>
-    <TargetUsers/>
+    {/* <TargetUsers/> */}
     <AppPreview/>
     <DataPurpose/>
     <WaitingList/>

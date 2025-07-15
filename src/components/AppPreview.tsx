@@ -11,7 +11,7 @@ const AppPreview = () => {
       
       <div className="max-w-7xl mx-auto px-10 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-[#2D2D2D]">Built for Ghana. Built for Ease.</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-[#2D2D2D]">Built for Ease.</h2>
           <p className="mt-4 text-xl text-[#6B6B6B] max-w-3xl mx-auto">
             Upload your prescription. Get matched to a pharmacy near you. Track the rider. Refill meds with one tap.
           </p>
@@ -86,7 +86,7 @@ const AppPreview = () => {
           </div>
           
           <div className="order-1 md:order-2 my-10 md:my-0 flex justify-center">
-            <div className="relative w-full max-w-md">
+            <div className="relative md:w-full  md:p-0 max-w-md">
               {/* Delivery Tracking Interface */}
               <div className="bg-white rounded-3xl shadow-2xl overflow-hidden border-2 border-[#E8E2E0]">
                 {/* Header */}

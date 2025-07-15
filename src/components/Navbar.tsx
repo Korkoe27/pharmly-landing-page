@@ -76,12 +76,12 @@ console.log("is scrolled");
                 >
                   Why we exist
                 </button>
-                <button 
+                {/* <button 
                   onClick={() => scrollToSection('who-its-for')}
                   className="block w-full text-left px-4 py-3 text-sm text-[#2D2D2D] hover:bg-[#F7F5F3] hover:text-[#A83F3C] font-medium"
                 >
                   Who it's for
-                </button>
+                </button> */}
                 <button 
                   onClick={() => scrollToSection('how-it-works')}
                   className="block w-full text-left px-4 py-3 text-sm text-[#2D2D2D] hover:bg-[#F7F5F3] hover:text-[#A83F3C] font-medium"
@@ -117,7 +117,6 @@ console.log("is scrolled");
             </button>
 
 
-            
             <button 
               onClick={() => scrollToSection('beta-test')}
               className={`font-medium transition-colors ${

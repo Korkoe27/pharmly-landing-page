@@ -131,7 +131,7 @@ const Footer = () => {
               </li>
               <li className="flex text-base lg:text-lg items-start">
                 <Phone className="h-5 w-5 text-[#A83F3C] mt-0.5 mr-2" />
-                <span className="text-[#D6D6D6] font-medium">+233 50 123 4567</span>
+                <span className="text-[#D6D6D6] font-medium">+233 24 500 0640</span>
               </li>
               <li className="flex text-base lg:text-lg items-start">
                 <MapPin className="h-5 w-5 text-[#A83F3C] mt-0.5 mr-2" />

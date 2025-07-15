@@ -47,7 +47,7 @@ const Hero = () => {
             </p>
             
             {/* Primary CTAs */}
-            <div className="flex flex-col items-center sm:flex-row gap-4 mb-8">
+            <div className="flex flex-col items-center justify-center lg:justify-start sm:flex-row gap-4 mb-8">
               {/* <button className="group relative px-8 py-4 bg-white text-[#A83F3C] font-semibold rounded-xl hover:bg-[#F7F5F3] transition-all duration-300 shadow-xl hover:shadow-2xl transform hover:-translate-y-1 flex items-center justify-center">
                 <Download className="mr-3 h-5 w-5 group-hover:scale-110 transition-transform" />
                 Download Pharmly App
@@ -107,7 +107,7 @@ const Hero = () => {
             <div className="relative">
               {/* Main Phone Mockup */}
               <div className="relative z-10">
-                <div className="bg-[#2D2D2D] rounded-[2.5rem] p-2 w-96 shadow-2xl">
+                <div className="bg-[#2D2D2D] rounded-[2.5rem] p-2 lg:w-96 w-72 shadow-2xl">
                   <div className="bg-white rounded-[2rem] overflow-hidden h-[600px] w-full relative">
                     {/* Status Bar */}
                     <div className="bg-[#A83F3C] text-white px-6 py-4 flex justify-between items-center">
