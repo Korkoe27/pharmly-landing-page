@@ -178,30 +178,30 @@ console.log("is scrolled");
                 Home
               </button>
               <button 
+                onClick={() => scrollToSection('why-we-exist')}
+                className="text-[#2D2D2D] hover:text-[#A83F3C] transition-colors text-left font-medium py-2"
+              >
+                Why we exist
+              </button>
+              <button 
                 onClick={() => scrollToSection('how-it-works')}
                 className="text-[#2D2D2D] hover:text-[#A83F3C] transition-colors text-left font-medium py-2"
               >
-                How It Works
+                How it works
               </button>
               <button 
-                onClick={() => scrollToSection('for-pharmacies')}
+                onClick={() => scrollToSection('our-impact')}
                 className="text-[#2D2D2D] hover:text-[#A83F3C] transition-colors text-left font-medium py-2"
               >
-                For Pharmacies
+                Our Impact
               </button>
               <button 
-                onClick={() => scrollToSection('for-riders')}
+                onClick={() => scrollToSection('beta-test')}
                 className="text-[#2D2D2D] hover:text-[#A83F3C] transition-colors text-left font-medium py-2"
               >
-                For Riders
+                Beta Testing
               </button>
-              <button 
-                onClick={() => scrollToSection('data-mission')}
-                className="text-[#2D2D2D] hover:text-[#A83F3C] transition-colors text-left font-medium py-2"
-              >
-                Data Mission
-              </button>
-              <button 
+              {/* <button 
                 onClick={() => scrollToSection('about')}
                 className="text-[#2D2D2D] hover:text-[#A83F3C] transition-colors text-left font-medium py-2"
               >
@@ -215,7 +215,7 @@ console.log("is scrolled");
               </button>
               <button className="px-6 py-3 rounded-xl text-white bg-[#A83F3C] hover:bg-[#8B3530] transition-all duration-300 font-semibold text-center shadow-lg">
                 Log In / Sign Up
-              </button>
+              </button> */}
             </div>
           </div>
         )}
