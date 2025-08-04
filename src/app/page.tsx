@@ -10,7 +10,7 @@ import WaitingList from "@/components/WaitingList";
 
 export default function Home() {
   return (
-    <div className="no-scrollbar h-svh">
+    <div className="no-scrollbar h-sv hidden">
     <Navbar/>
     <Hero />
     <WhyPharmly/>
